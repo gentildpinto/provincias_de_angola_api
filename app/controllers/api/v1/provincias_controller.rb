@@ -2,6 +2,9 @@ class Api::V1::ProvinciasController < ApplicationController
     def index
         @provincias = Provincia.all
 
-        render json: @provincias, status: :ok
+        render json:{
+            status: 200,
+            provincias: @provincias
+        }, status: :ok
     end
 end
