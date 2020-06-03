@@ -19,8 +19,6 @@ ActiveRecord::Schema.define(version: 2020_06_03_115236) do
     t.string "nome"
     t.string "capital"
     t.string "municipios", default: [], array: true
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

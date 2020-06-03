@@ -5,8 +5,8 @@ class Api::V1::ProvinciasController < ApplicationController
         render json:{
             status: 200,
             provincias: @provincias,
-            current_page: @provincias.current_page,
             total_pages: @provincias.total_pages,
+            current_page: @provincias.current_page,
             last_page: @provincias.total_pages,
             endpoints: [
                 'http://angoprovsapi.herokuapp.com/',
