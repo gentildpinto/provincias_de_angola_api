@@ -31,6 +31,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'will_paginate'
 gem 'rack-cors', :require => 'rack/cors'
+gem "actionpack", ">= 6.0.3.1"
+gem "activestorage", ">= 6.0.3.1"
+gem "activesupport", ">= 6.0.3.1"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
