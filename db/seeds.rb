@@ -64,7 +64,6 @@ Provincia.create([
         'Golungo Alto',
         'Gonguembo',
         'Lucala',
-        'Ndalatando',
         'Quiculungo',
         'Samba Caju'
     ]},
@@ -88,8 +87,7 @@ Provincia.create([
         'Curoca',
         'Cuvelai',
         'Namacunde',
-        'Ombadja',
-        'Ondjiva'
+        'Ombadja'
     ]},
     {nome: 'Huambo', capital: 'Huambo', municipios: [
         'Bailundo',
@@ -171,7 +169,6 @@ Provincia.create([
         'Camanongue',
         'Léua',
         'Luau',
-        'Luena',
         'Luacano',
         'Luchazes',
         'Cameia',
