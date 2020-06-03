@@ -1,24 +1,27 @@
-# README
+<h1 align="center">
+  Provincias de Angola API
+</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**API Link**: [heroku](https://angoprovsapi.herokuapp.com)
 
-Things you may want to cover:
+## :clipboard: Descrição do projeto
 
-* Ruby version
+> API desenvolvida para fornecer dados de provincias e municipios do território Angolano 
 
-* System dependencies
+## :computer: Tecnologias
 
-* Configuration
+Esse projeto foi desenvolvido utilizando:
+- [Ruby on Rails](https://rubyonrails.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-* Database creation
+## :rocket: Como Iniciar
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Faça um `git clone` do repositório;
+- Instale todas dependências rodando no terminal o comando `bundle`;<br>
+- Configure o arquivo `database.yml` no diretório `config` na raíz do projecto;<br>
+- Rode os seguintes comandos
+    - `rake db:create`;
+    - `rake db:migrate`;
+    - `rake db:seed`;
+    - `rails s`
+- Divirta-se :)
