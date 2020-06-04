@@ -40,7 +40,7 @@ module ProvinciasDeAngolaAPI
         resource(
           '*',
           headers: :any,
-          methods: [:get, :options]
+          methods: [:get]
         )
       end
     end
