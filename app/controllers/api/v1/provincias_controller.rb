@@ -1,6 +1,6 @@
 class Api::V1::ProvinciasController < ApplicationController
     def index
-        begin
+
             @provincias = Provincia.all.paginate(:page => params[:page], :per_page => 9)
 
             render json:{
@@ -17,11 +17,11 @@ class Api::V1::ProvinciasController < ApplicationController
                 status: 500,
                 message: "error => #{error}"
             }, status: :internal_server_error
-        end
+
     end
 
     def show
-        begin
+
             @provincia = Provincia.where("nome LIKE ?", "%" + get_params.titleize + "%")
             if !@provincia.empty?
                 render json: {
@@ -39,7 +39,7 @@ class Api::V1::ProvinciasController < ApplicationController
                 status: 500,
                 message: "error => #{error}"
             }, status: :internal_server_error
-        end 
+
     end
 
     private
