@@ -1,6 +1,5 @@
 class Api::ApiController < ApplicationController
     def index
-
             render json: {
                 title: "AngoProvsAPI",
                 description: "API desenvolvida para fornecer dados de provincias e municipios do território Angolano",
@@ -23,6 +22,5 @@ class Api::ApiController < ApplicationController
                 status: 500,
                 message: "error => #{error}"
             }, status: :internal_server_error
-
     end
 end
