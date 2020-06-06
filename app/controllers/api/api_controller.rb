@@ -1,6 +1,6 @@
 class Api::ApiController < ApplicationController
     def index
-            render :index, status: :ok
+        render :index, status: :ok
         rescue Exception => error
             render json: {
                 status: 500,
