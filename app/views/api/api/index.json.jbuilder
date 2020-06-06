@@ -10,7 +10,7 @@ json.project do
     end
 end
 json.endpoints [
-    'http://angoprovsapi.herokuapp.com/',
-    'http://angoprovsapi.herokuapp.com/api/v1/provincias',
-    'http://angoprovsapi.herokuapp.com/api/v1/provincias/{provincia}',
+    "http://angoprovsapi.herokuapp.com/",
+    "http://angoprovsapi.herokuapp.com/api/v1/provincias",
+    "http://angoprovsapi.herokuapp.com/api/v1/provincias/{provincia}",
 ]
