@@ -3,6 +3,7 @@ class CreateProvincia < ActiveRecord::Migration[6.0]
     create_table :provincia do |t|
       t.string :nome
       t.string :capital
+      t.string :fundada
       t.string :municipios, array: true, default: []
 
       # t.timestamps
