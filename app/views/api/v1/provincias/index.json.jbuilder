@@ -7,6 +7,7 @@ json.provincia(@provincias) do |provincia|
     json.fundada provincia.fundada
     json.capital provincia.capital
     json.area provincia.area
+    json.prefixo_telefonico provincia.prefixo_telefonico
     json.municipios provincia.municipios
 end
 json.per_page @provincias.per_page

@@ -5,6 +5,7 @@ class CreateProvincia < ActiveRecord::Migration[6.0]
       t.string :capital
       t.string :fundada
       t.string :area
+      t.string :prefixo_telefonico
       t.string :municipios, array: true, default: []
 
       # t.timestamps

@@ -12,6 +12,7 @@ Provincia.create([
         fundada: '26 de Abril de 1980',
         capital: 'Caxito',
         area: '31.371 km²',
+        prefixo_telefonico: '034',
         municipios: [
             'Ambriz',
             'Bula Atumba',
@@ -26,6 +27,7 @@ Provincia.create([
         fundada: '1617',
         capital: 'Benguela',
         area: '39.827 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Balombo',
             'Baía Farta',
@@ -44,6 +46,7 @@ Provincia.create([
         fundada: '1 de Maio de 1922',
         capital: 'Cuíto',
         area: '70.314 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Andulo',
             'Camacupa',
@@ -61,6 +64,7 @@ Provincia.create([
         fundada: '28 de Fevereiro de 1919',
         capital: 'Cabinda',
         area: '7.283 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Belize',
             'Buco-Zau',
@@ -69,10 +73,11 @@ Provincia.create([
         ]
     },
     {
-        nome: 'Cuando-Cubango',
+        nome: 'Cuando Cubango',
         fundada: '21 de Outubro de 1961',
         capital: 'Menongue',
         area: '199.049 km²',
+        prefixo_telefonico: '049',
         municipios: [
             'Calai',
             'Cuangar',
@@ -90,6 +95,7 @@ Provincia.create([
         fundada: '15 de Agosto de 1914',
         capital: 'Ndalatando',
         area: '24.110 km²',
+        prefixo_telefonico: '035',
         municipios: [
             'Ambaca',
             'Banga',
@@ -108,6 +114,7 @@ Provincia.create([
         fundada: '15 de Setembro de 1917',
         capital: 'Sumbe',
         area: '55.660 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Amboim',
             'Cassongue',
@@ -128,6 +135,7 @@ Provincia.create([
         fundada: '10 de Julho de 1970',
         capital: 'Ondjiva',
         area: '78.342 km²',
+        prefixo_telefonico: '035',
         municipios: [
             'Cahama',
             'Cuanhama',
@@ -142,6 +150,7 @@ Provincia.create([
         fundada: '21 de Setembro de 1912',
         capital: 'Huambo',
         area: '35.771 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Bailundo',
             'Cachiungo',
@@ -161,6 +170,7 @@ Provincia.create([
         fundada: '2 de Setembro de 1901',
         capital: 'Lubango',
         area: '79.022 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Caconda',
             'Cacula',
@@ -183,6 +193,7 @@ Provincia.create([
         fundada: '1605',
         capital: 'Luanda',
         area: '18.826 km²',
+        prefixo_telefonico: '222',
         municipios: [
             'Belas',
             'Cacuaco',
@@ -200,6 +211,7 @@ Provincia.create([
         fundada: '4 de Julho de 1978',
         capital: 'Dundo',
         area: '103.760 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Cambulo',
             'Capenda-Camulemba',
@@ -218,6 +230,7 @@ Provincia.create([
         fundada: '13 de Julho de 1895',
         capital: 'Saurimo',
         area: '77.636 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Cacolo',
             'Dala',
@@ -230,6 +243,7 @@ Provincia.create([
         fundada: '1921',
         capital: 'Malanje',
         area: '98.302 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Cacuso',
             'Calandula',
@@ -252,6 +266,7 @@ Provincia.create([
         fundada: '15 de Setembro de 1917',
         capital: 'Luena',
         area: '223.023 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Alto Zambeze',
             'Bundas',
@@ -269,6 +284,7 @@ Provincia.create([
         fundada: '19 de Abril de 1849',
         capital: 'Moçâmedes',
         area: '57.091 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Bibala',
             'Camucuio',
@@ -282,6 +298,7 @@ Provincia.create([
         fundada: '31 de Maio de 1887',
         capital: 'Uíge',
         area: '58.698 km²',
+        prefixo_telefonico: '+244',
         municipios: [
             'Alto Cauale',
             'Ambuíla',
@@ -306,6 +323,7 @@ Provincia.create([
         fundada: '1 de Abril de 1961',
         capital: 'Mbanza Congo',
         area: '40.138 km²',
+        prefixo_telefonico: '+232',
         municipios: [
             'Cuimba',
             'Mabanza Congo',
