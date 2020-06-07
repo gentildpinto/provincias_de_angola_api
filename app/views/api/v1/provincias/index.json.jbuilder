@@ -1,7 +1,13 @@
 json.status 200
 json.message "provincias de Angola"
 json.current_page @provincias.current_page
-json.provincias @provincias
+json.provincia(@provincias) do |provincia|
+    json.id provincia.id
+    json.nome provincia.nome
+    json.fundada provincia.fundada
+    json.capital provincia.capital
+    json.municipios provincia.municipios
+end
 json.per_page @provincias.per_page
 json.last_page @provincias.total_pages
 json.total_pages @provincias.total_pages
