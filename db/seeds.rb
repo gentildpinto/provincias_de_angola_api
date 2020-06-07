@@ -11,6 +11,7 @@ Provincia.create([
         nome: 'Bengo',
         fundada: '26 de Abril de 1980',
         capital: 'Caxito',
+        area: '31.371 km²',
         municipios: [
             'Ambriz',
             'Bula Atumba',
@@ -24,6 +25,7 @@ Provincia.create([
         nome: 'Benguela',
         fundada: '1617',
         capital: 'Benguela',
+        area: '39.827 km²',
         municipios: [
             'Balombo',
             'Baía Farta',
@@ -41,6 +43,7 @@ Provincia.create([
         nome: 'Bié',
         fundada: '1 de Maio de 1922',
         capital: 'Cuíto',
+        area: '70.314 km²',
         municipios: [
             'Andulo',
             'Camacupa',
@@ -57,6 +60,7 @@ Provincia.create([
         nome: 'Cabinda',
         fundada: '28 de Fevereiro de 1919',
         capital: 'Cabinda',
+        area: '7.283 km²',
         municipios: [
             'Belize',
             'Buco-Zau',
@@ -68,6 +72,7 @@ Provincia.create([
         nome: 'Cuando-Cubango',
         fundada: '21 de Outubro de 1961',
         capital: 'Menongue',
+        area: '199.049 km²',
         municipios: [
             'Calai',
             'Cuangar',
@@ -84,6 +89,7 @@ Provincia.create([
         nome: 'Cuanza Norte',
         fundada: '15 de Agosto de 1914',
         capital: 'Ndalatando',
+        area: '24.110 km²',
         municipios: [
             'Ambaca',
             'Banga',
@@ -101,6 +107,7 @@ Provincia.create([
         nome: 'Cuanza Sul',
         fundada: '15 de Setembro de 1917',
         capital: 'Sumbe',
+        area: '55.660 km²',
         municipios: [
             'Amboim',
             'Cassongue',
@@ -120,6 +127,7 @@ Provincia.create([
         nome: 'Cunene',
         fundada: '10 de Julho de 1970',
         capital: 'Ondjiva',
+        area: '78.342 km²',
         municipios: [
             'Cahama',
             'Cuanhama',
@@ -133,6 +141,7 @@ Provincia.create([
         nome: 'Huambo',
         fundada: '21 de Setembro de 1912',
         capital: 'Huambo',
+        area: '35.771 km²',
         municipios: [
             'Bailundo',
             'Cachiungo',
@@ -151,6 +160,7 @@ Provincia.create([
         nome: 'Huíla',
         fundada: '2 de Setembro de 1901',
         capital: 'Lubango',
+        area: '79.022 km²',
         municipios: [
             'Caconda',
             'Cacula',
@@ -172,6 +182,7 @@ Provincia.create([
         nome: 'Luanda',
         fundada: '1605',
         capital: 'Luanda',
+        area: '18.826 km²',
         municipios: [
             'Belas',
             'Cacuaco',
@@ -188,6 +199,7 @@ Provincia.create([
         nome: 'Lunda Norte',
         fundada: '4 de Julho de 1978',
         capital: 'Dundo',
+        area: '103.760 km²',
         municipios: [
             'Cambulo',
             'Capenda-Camulemba',
@@ -205,6 +217,7 @@ Provincia.create([
         nome: 'Lunda Sul',
         fundada: '13 de Julho de 1895',
         capital: 'Saurimo',
+        area: '77.636 km²',
         municipios: [
             'Cacolo',
             'Dala',
@@ -216,6 +229,7 @@ Provincia.create([
         nome: 'Malanje',
         fundada: '1921',
         capital: 'Malanje',
+        area: '98.302 km²',
         municipios: [
             'Cacuso',
             'Calandula',
@@ -237,6 +251,7 @@ Provincia.create([
         nome: 'Moxico',
         fundada: '15 de Setembro de 1917',
         capital: 'Luena',
+        area: '223.023 km²',
         municipios: [
             'Alto Zambeze',
             'Bundas',
@@ -253,6 +268,7 @@ Provincia.create([
         nome: 'Namibe',
         fundada: '19 de Abril de 1849',
         capital: 'Moçâmedes',
+        area: '57.091 km²',
         municipios: [
             'Bibala',
             'Camucuio',
@@ -265,6 +281,7 @@ Provincia.create([
         nome: 'Uíge',
         fundada: '31 de Maio de 1887',
         capital: 'Uíge',
+        area: '58.698 km²',
         municipios: [
             'Alto Cauale',
             'Ambuíla',
@@ -288,6 +305,7 @@ Provincia.create([
         nome: 'Zaire',
         fundada: '1 de Abril de 1961',
         capital: 'Mbanza Congo',
+        area: '40.138 km²',
         municipios: [
             'Cuimba',
             'Mabanza Congo',
