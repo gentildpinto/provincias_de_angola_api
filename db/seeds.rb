@@ -13,6 +13,7 @@ Provincia.create([
         capital: 'Caxito',
         area: '31.371 km²',
         prefixo_telefonico: '034',
+        site_governo_provincial: 'https://www.bengo.gov.ao',
         municipios: [
             'Ambriz',
             'Bula Atumba',
@@ -28,6 +29,7 @@ Provincia.create([
         capital: 'Benguela',
         area: '39.827 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.benguela.gov.ao',
         municipios: [
             'Balombo',
             'Baía Farta',
@@ -47,6 +49,7 @@ Provincia.create([
         capital: 'Cuíto',
         area: '70.314 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.bie.gov.ao',
         municipios: [
             'Andulo',
             'Camacupa',
@@ -65,6 +68,7 @@ Provincia.create([
         capital: 'Cabinda',
         area: '7.283 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.cabinda.gov.ao',
         municipios: [
             'Belize',
             'Buco-Zau',
@@ -78,6 +82,7 @@ Provincia.create([
         capital: 'Menongue',
         area: '199.049 km²',
         prefixo_telefonico: '049',
+        site_governo_provincial: 'https://www.cuandocubango.gov.ao',
         municipios: [
             'Calai',
             'Cuangar',
@@ -96,6 +101,7 @@ Provincia.create([
         capital: 'Ndalatando',
         area: '24.110 km²',
         prefixo_telefonico: '035',
+        site_governo_provincial: 'https://www.cuanzanorte.gov.ao',
         municipios: [
             'Ambaca',
             'Banga',
@@ -115,6 +121,7 @@ Provincia.create([
         capital: 'Sumbe',
         area: '55.660 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.cuanzasul.gov.ao',
         municipios: [
             'Amboim',
             'Cassongue',
@@ -136,6 +143,7 @@ Provincia.create([
         capital: 'Ondjiva',
         area: '78.342 km²',
         prefixo_telefonico: '035',
+        site_governo_provincial: 'https://www.cunene.gov.ao',
         municipios: [
             'Cahama',
             'Cuanhama',
@@ -151,6 +159,7 @@ Provincia.create([
         capital: 'Huambo',
         area: '35.771 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.huambo.gov.ao',
         municipios: [
             'Bailundo',
             'Cachiungo',
@@ -171,6 +180,7 @@ Provincia.create([
         capital: 'Lubango',
         area: '79.022 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.huila.gov.ao',
         municipios: [
             'Caconda',
             'Cacula',
@@ -194,6 +204,7 @@ Provincia.create([
         capital: 'Luanda',
         area: '18.826 km²',
         prefixo_telefonico: '222',
+        site_governo_provincial: 'https://www.luanda.gov.ao',
         municipios: [
             'Belas',
             'Cacuaco',
@@ -212,6 +223,7 @@ Provincia.create([
         capital: 'Dundo',
         area: '103.760 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.lundanorte.gov.ao',
         municipios: [
             'Cambulo',
             'Capenda-Camulemba',
@@ -231,6 +243,7 @@ Provincia.create([
         capital: 'Saurimo',
         area: '77.636 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.lundasul.gov.ao',
         municipios: [
             'Cacolo',
             'Dala',
@@ -244,6 +257,7 @@ Provincia.create([
         capital: 'Malanje',
         area: '98.302 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.malanje.gov.ao',
         municipios: [
             'Cacuso',
             'Calandula',
@@ -267,6 +281,7 @@ Provincia.create([
         capital: 'Luena',
         area: '223.023 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.moxico.gov.ao',
         municipios: [
             'Alto Zambeze',
             'Bundas',
@@ -285,6 +300,7 @@ Provincia.create([
         capital: 'Moçâmedes',
         area: '57.091 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.namibe.gov.ao',
         municipios: [
             'Bibala',
             'Camucuio',
@@ -299,6 +315,7 @@ Provincia.create([
         capital: 'Uíge',
         area: '58.698 km²',
         prefixo_telefonico: '+244',
+        site_governo_provincial: 'https://www.uige.gov.ao',
         municipios: [
             'Alto Cauale',
             'Ambuíla',
@@ -324,6 +341,7 @@ Provincia.create([
         capital: 'Mbanza Congo',
         area: '40.138 km²',
         prefixo_telefonico: '+232',
+        site_governo_provincial: 'https://www.zaire.gov.ao',
         municipios: [
             'Cuimba',
             'Mabanza Congo',
