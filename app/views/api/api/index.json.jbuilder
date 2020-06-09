@@ -9,11 +9,9 @@ json.project do
         json.database "PostgreSQL"
     end
 end
-json.endpoints [
-    "http://angoprovsapi.herokuapp.com/",
-    "http://angoprovsapi.herokuapp.com/api/v1/provincias",
-    "http://angoprovsapi.herokuapp.com/api/v1/provincias/{provincia}",
-    json.weather_forecast [
-        "http://angoprovsapi.herokuapp.com/api/v1/previsao/{provincia}",
-    ]
-]
+json.endpoints do
+    json.index "http://angoprovsapi.herokuapp.com/"
+    json.get_all_provinces "http://angoprovsapi.herokuapp.com/api/v1/provincias"
+    json.get_a_single_province "http://angoprovsapi.herokuapp.com/api/v1/provincias/{provincia}"
+    json.weather_forecast "http://angoprovsapi.herokuapp.com/api/v1/previsao/{provincia}"
+end
