@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: :json} do
     namespace :v1, defaults: {format: :json} do
       resources :provincias, only: [:index, :show]
+      resources :previsao, only: [:show]
     end
   end
 end

@@ -13,4 +13,7 @@ json.endpoints [
     "http://angoprovsapi.herokuapp.com/",
     "http://angoprovsapi.herokuapp.com/api/v1/provincias",
     "http://angoprovsapi.herokuapp.com/api/v1/provincias/{provincia}",
+    json.weather_forecast [
+        "http://angoprovsapi.herokuapp.com/api/v1/previsao/{provincia}",
+    ]
 ]
