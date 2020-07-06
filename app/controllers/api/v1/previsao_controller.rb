@@ -23,7 +23,7 @@ class Api::V1::PrevisaoController < ApplicationController
         end
 
         def scrapper(provincia_id)
-            source = Nokogiri::HTML(URI("http://www.inamet.gov.ao/ao/previsao/?p=#{provincia_id}").open())
+            source = Nokogiri::HTML(URI("http://inamet.gov.ao/ao/previsao/?p=#{provincia_id}").open())
             previsao = {}
             source.search('div.previsoes div.row div.col-sm-5 fieldset').each do |previsao_container|
                 previsao_container.children.search('p').each do |desc|
