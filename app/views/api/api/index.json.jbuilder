@@ -1,5 +1,7 @@
+# encoding: utf-8
+
 json.title "AngoProvsAPI"
-json.description "API desenvolvida para fornecer dados de provincias e municipios do território Angolano"
+json.description "API desenvolvida para fornecer dados de provincias e municipios do território Angolano."
 json.author "Gentil Pinto"
 json.project do
     json.github_link "https://github.com/GentilPinto/provincias_de_angola_api"
