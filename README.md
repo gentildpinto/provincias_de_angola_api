@@ -25,3 +25,7 @@ Esse projeto foi desenvolvido utilizando:
     - `rake db:seed`;
     - `rails s`
 - Divirta-se :)
+
+## :warning: Aviso!
+
+Esta API não deve ser usada em aplicativos para produção enquanto estiver hospedado no heroku com um plano gratuito que pode apresentar alguma lentidão ou instabilidade.
