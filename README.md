@@ -2,8 +2,6 @@
   Provincias de Angola API
 </h1>
 
-**API Link**: [heroku](https://angoprovsapi.herokuapp.com)
-
 ## :clipboard: Descrição do projeto
 
 > API desenvolvida para fornecer dados de provincias e municipios do território Angolano 
