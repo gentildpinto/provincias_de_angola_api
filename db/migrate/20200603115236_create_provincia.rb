@@ -7,7 +7,7 @@ class CreateProvincia < ActiveRecord::Migration[6.0]
       t.string :area
       t.string :prefixo_telefonico
       t.string :site_governo_provincial
-      t.string :municipios, array: true, default: []
+      t.string :municipios, array: true, default: [].to_yaml
 
       # t.timestamps
     end

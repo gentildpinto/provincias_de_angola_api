@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2020_06_03_115236) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "provincia", force: :cascade do |t|
     t.string "nome"
     t.string "capital"
@@ -22,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_06_03_115236) do
     t.string "area"
     t.string "prefixo_telefonico"
     t.string "site_governo_provincial"
-    t.string "municipios", default: [], array: true
+    t.string "municipios", default: "--- []\n"
   end
 
 end
