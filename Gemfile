@@ -13,7 +13,7 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 # Use Puma as the app server
-gem 'puma', '~> 5.6.4'
+gem 'puma', '~> 5.6.7'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11.2'
 # Use Redis adapter to run Action Cable in production
